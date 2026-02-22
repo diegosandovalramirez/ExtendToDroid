@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.extendtodroid" path="/org/gnome/shell/extensions/extendtodroid/">
+    <key name="allowed-serials" type="as">
+      <default>[]</default>
+      <summary>Seriales ADB permitidos</summary>
+      <description>Lista de seriales que disparan el comando adb reverse.</description>
+    </key>
+
+    <key name="tcp-port" type="i">
+      <default>3389</default>
+      <summary>Puerto TCP para adb reverse</summary>
+      <description>Puerto local y remoto que será invertido.</description>
+    </key>
+  </schema>
+</schemalist>
