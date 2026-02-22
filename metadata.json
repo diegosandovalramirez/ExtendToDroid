@@ -1,8 +1,8 @@
 {
   "uuid": "extendtodroid@diegosandovalramirez",
-  "name": "ADB Reverse Auto",
+  "name": "Extend To Droid",
   "description": "Ejecuta adb reverse y configura RDP cuando se detecta un dispositivo permitido.",
-  "shell-version": ["45","46"],
+  "shell-version": ["49"],
   "version": 1,
   "url": "https://github.com/diegosandovalramirez/ExtendToDroid"
 }
